@@ -1,5 +1,5 @@
-import { Box, Container, Flex } from "@chakra-ui/react";
-import { Header } from "../components/Header";
+import { Box, Container, Flex, Heading } from '@chakra-ui/react';
+import { Header } from '../components/Header';
 
 export default function Home() {
   return (
@@ -7,11 +7,23 @@ export default function Home() {
       <Header />
       <Box
         bgImg="/images/background.svg"
+        bgPos="top"
+        bgSize="auto"
+        bgRepeat="no-repeat"
+        h={368}
       >
         <Container maxW={1160}>
-          <h1>Teste</h1>
+          <Flex justify="space-between">
+            <Box>
+              <Heading colorScheme={'pink.500'}>
+                5 continentes, infinitas possibilidades
+              </Heading>
+            </Box>
+
+            <Box>Right</Box>
+          </Flex>
         </Container>
       </Box>
     </Flex>
-  )
+  );
 }
