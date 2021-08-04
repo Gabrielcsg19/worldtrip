@@ -3,7 +3,13 @@ import { TravelImage } from './TravelImage';
 
 export function TravelTypes() {
   return (
-    <Flex align="center">
+    <Flex
+      align="center"
+      justifyContent="space-between"
+      flexWrap="wrap"
+      px={['5', 'initial']}
+      gridGap={['7', 'initial']}
+    >
       <TravelImage
         src="/images/home/nightlife.svg"
         alt="Night life"
@@ -20,6 +26,7 @@ export function TravelTypes() {
         src="/images/home/more.svg"
         alt="And more"
         title="e mais..."
+        center
       />
     </Flex>
   );

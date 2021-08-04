@@ -1,6 +1,18 @@
-import { Box, Container, Flex, Heading, Image, Text } from '@chakra-ui/react';
+import {
+  Box,
+  Container,
+  Flex,
+  Heading,
+  Image,
+  Text,
+  useBreakpointValue,
+} from '@chakra-ui/react';
 
 export function Banner() {
+  const isMobileVersion = useBreakpointValue({
+    sm: true,
+  });
+
   return (
     <Flex
       bgImg="/images/home/banner/background.svg"
@@ -25,13 +37,15 @@ export function Banner() {
             </Text>
           </Box>
 
-          <Image
-            transform="rotate(3deg)"
-            src="/images/home/banner/airplane.svg"
-            alt="Airplane"
-            alignSelf="flex-end"
-            mb={-30}
-          />
+          {isMobileVersion && (
+            <Image
+              transform="rotate(3deg)"
+              src="/images/home/banner/airplane.svg"
+              alt="Airplane"
+              alignSelf="flex-end"
+              mb={-30}
+            />
+          )}
         </Flex>
       </Container>
     </Flex>

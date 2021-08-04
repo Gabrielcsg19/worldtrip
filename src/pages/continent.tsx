@@ -10,10 +10,15 @@ export default function Continent() {
       <Header />
       <Banner />
 
-      <Container maxW="container.lg" mt="20">
+      <Container maxW="container.lg" mt={['6', '20']}>
         <Content />
 
-        <Heading mt="20" mb="10" fontWeight="medium" fontSize="4xl">
+        <Heading
+          mt={['8', '20']}
+          mb={['5', '10']}
+          fontWeight="medium"
+          fontSize={['2xl', '4xl']}
+        >
           Cidades +100
         </Heading>
 

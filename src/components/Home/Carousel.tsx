@@ -8,13 +8,7 @@ SwiperCore.use([Pagination, Navigation, A11y]);
 
 export function Carousel() {
   return (
-    <Swiper
-      slidesPerView={1}
-      pagination={{ clickable: true }}
-      navigation
-      onSlideChange={() => console.log('Slide changed')}
-      onSwiper={swiper => console.log(swiper)}
-    >
+    <Swiper slidesPerView={1} pagination={{ clickable: true }} navigation>
       <SwiperSlide>
         <CarouselSlide
           bgImg="/images/home/carousel/europe-image.svg"
