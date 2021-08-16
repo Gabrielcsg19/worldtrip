@@ -13,10 +13,6 @@ import { Carousel } from '../components/Home/Carousel';
 import { TravelTypes } from '../components/Home/TravelTypes';
 
 export default function Home() {
-  const isMobileVersion = useBreakpointValue({
-    sm: true,
-  });
-
   return (
     <Flex flexDir="column">
       <Header />

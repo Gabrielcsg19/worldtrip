@@ -20,7 +20,7 @@ export function CarouselSlide({ bgImg, title, subtitle }: CarouselSlideProps) {
       textShadow="1px 2px 1px #222"
     >
       <VStack>
-        <Link href="/" passHref>
+        <Link href="/continent" passHref>
           <Heading
             color="gray.50"
             fontWeight="bold"

@@ -1,10 +1,15 @@
 import { Container, Flex, Heading, SimpleGrid } from '@chakra-ui/react';
+import { useEffect } from 'react';
 import { Banner } from '../components/Continent/Banner';
 import { Card } from '../components/Continent/Card';
 import { Content } from '../components/Continent/Content';
 import { Header } from '../components/Header';
 
 export default function Continent() {
+  useEffect(() => {
+    alert('No momento apenas a página da Europa está disponível. ok? :)');
+  }, []);
+
   return (
     <Flex flexDir="column">
       <Header />
