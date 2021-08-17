@@ -6,7 +6,7 @@
 Site que apresenta um breve resumo sobre os continentes e suas cidades +100, ou seja, as cidades que estão entre as 100 mais visitadas do mundo.
 
 ## 🚀 Introdução
-Projeto criado através do desafio do Ignite (Rocketseat) com o intuito de por em prática os conhecimentos em *Next.js*, criação de interfaces declarativas com *Chakra UI* e implementação de carousel com *Swiper.js*.
+Projeto criado através do desafio do Ignite (Rocketseat) com o intuito de pôr em prática os conhecimentos em *Next.js*, criação de interfaces declarativas com *Chakra UI* e implementação de carousel com *Swiper.js*.
 
 ## :clipboard: Pré-requisitos
 
