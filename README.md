@@ -1,6 +1,6 @@
 <h1 align="center">worldtrip</h1><br>
 
-![Screenshot 2021-08-16 at 15-48-46 Screenshot](https://user-images.githubusercontent.com/54643425/129614583-ddefb06e-1113-4721-bd18-797baae3ebcc.png)
+![Screenshot 2021-08-16 at 15-48-46 Screenshot](https://raw.githubusercontent.com/Gabrielcsg19/worldtrip/main/assets/cover-img.png)
 
 ---
 Site que apresenta um breve resumo sobre os continentes e suas cidades +100, ou seja, as cidades que estão entre as 100 mais visitadas do mundo.
